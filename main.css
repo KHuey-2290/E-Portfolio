@@ -6,12 +6,10 @@
 @import url("css/colors.css");
 @import url("css/typography.css");
 
+/* Small Mobile Screens */
 body {
     margin: 0px;
 }
-
-/* Small Mobile Screens */
-
 
 /* Tablet Screens */
 @media(min-width: 550px) {

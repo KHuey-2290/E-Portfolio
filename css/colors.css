@@ -13,3 +13,11 @@ h1, h2, h3, p {
 nav a {
     color: rgb(179, 148, 194);
 }
+
+.active-link {
+    color: gold;
+}
+
+nav a:hover {
+    color: gold;
+}
