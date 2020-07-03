@@ -1,0 +1,17 @@
+/* Small Mobile Screens */
+
+
+/* Tablet Screens */
+@media(min-width: 550px) {
+
+}
+
+/* Laptop Screens */
+@media(min-width: 768px) {
+
+}
+
+/* Large Laptop Screens */
+@media(min-width: 960px) {
+    
+}

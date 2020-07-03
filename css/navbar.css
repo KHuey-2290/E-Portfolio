@@ -1,0 +1,67 @@
+/* Small Mobile Screens */
+header {
+    width: 100%;
+    position: fixed;
+    padding-bottom: 10px;
+}
+
+.navflex {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-list {
+    flex-direction: column;
+    display: none;
+}
+
+.navbar-container {
+    flex-direction: column;
+}
+
+.menu-toggle-container, .logo-container {
+    margin: 20px;
+    width: 20%;
+}
+
+.menu-toggle-container {
+    width: 7%;
+    min-width: 30px;
+    height: fit-content;
+}
+
+header.navflex {
+    justify-content: space-between;
+}
+
+header img {
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0px 20px;
+    padding: 0px;
+}
+
+li {
+    padding: 10px 0px;
+}
+
+/* Tablet Screens */
+@media(min-width: 550px) {
+
+}
+
+/* Laptop Screens */
+@media(min-width: 768px) {
+
+}
+
+/* Large Laptop Screens */
+@media(min-width: 960px) {
+    
+}

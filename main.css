@@ -1,0 +1,29 @@
+@import url("css/navbar.css");
+@import url("css/footer.css");
+@import url("css/layout_home.css");
+@import url("css/layout_about.css");
+@import url("css/layout_projects.css");
+@import url("css/colors.css");
+@import url("css/typography.css");
+
+body {
+    margin: 0px;
+}
+
+/* Small Mobile Screens */
+
+
+/* Tablet Screens */
+@media(min-width: 550px) {
+
+}
+
+/* Laptop Screens */
+@media(min-width: 768px) {
+
+}
+
+/* Large Laptop Screens */
+@media(min-width: 960px) {
+    
+}

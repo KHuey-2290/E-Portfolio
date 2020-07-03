@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+header, footer {
+    background-color: rgb(20, 20, 20);
+}
+
+h1, h2, h3, p {
+    color: rgb(76, 20, 102);
+}
+
+nav a {
+    color: rgb(179, 148, 194);
+}
