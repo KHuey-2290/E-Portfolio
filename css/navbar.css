@@ -3,6 +3,7 @@ header {
     width: 100%;
     position: fixed;
     padding-bottom: 10px;
+    max-height: 125px;
 }
 
 .navflex {
@@ -27,6 +28,10 @@ header.navflex {
 .menu-toggle-container, .logo-container {
     margin: 20px;
     width: 20%;
+}
+
+.logo-container {
+    max-width: 75px;
 }
 
 .menu-toggle-container {
