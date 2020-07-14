@@ -1,6 +1,8 @@
 /* Small Mobile Screens */
 footer {
     width: 100%;
+    position: fixed;
+    bottom: 0px;
 }
 
 .flex-footer, .SM-container {

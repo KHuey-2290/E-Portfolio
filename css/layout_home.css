@@ -1,13 +1,14 @@
 /* Small Mobile Screens */
 main {
     padding: 50px;
+    margin: auto;
 }
 
 .home-flex-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 175px auto 50px;
+    margin: 175px auto 100px;
 }
 
 .home-selfie {
