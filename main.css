@@ -11,6 +11,10 @@ body {
     margin: 0px;
 }
 
+main {
+    padding: 175px 50px 150px;
+}
+
 /* Tablet Screens */
 @media(min-width: 550px) {
 

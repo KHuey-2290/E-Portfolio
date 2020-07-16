@@ -21,3 +21,8 @@ footer p, nav a {
 nav a:hover {
     color: gold;
 }
+
+.navbar-container, .navbar-list {
+    background-color: rgb(20, 20, 20);
+}
+

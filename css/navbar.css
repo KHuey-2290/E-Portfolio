@@ -49,13 +49,14 @@ nav a {
 }
 
 ul {
-    margin: 0px 20px;
+    margin: 0px;
     padding: 0px;
     list-style: none;
+    text-align: right;
 }
 
 li {
-    padding: 10px 0px;
+    padding: 20px 20px;
 }
 
 .active-link {

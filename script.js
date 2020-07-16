@@ -6,3 +6,8 @@ $(document).ready(function () {
         $(".navbar-list").toggle();
     });
 });
+
+// About Page
+$( function() {
+    $( "#accordionBox" ).accordion();
+} );
