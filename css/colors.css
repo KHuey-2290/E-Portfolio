@@ -2,11 +2,11 @@ body {
     background-color: rgb(241, 241, 241);
 }
 
-header, footer {
+header, footer, ul {
     background-color: rgb(20, 20, 20);
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p, .resume-box a {
     color: rgb(76, 20, 102);
 }
 
@@ -21,8 +21,3 @@ footer p, nav a {
 nav a:hover {
     color: gold;
 }
-
-.navbar-container, .navbar-list {
-    background-color: rgb(20, 20, 20);
-}
-

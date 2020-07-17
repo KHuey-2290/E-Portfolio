@@ -100,6 +100,10 @@ nav a:hover {
     li {
         padding-left: 60px;
     }
+
+    ul {
+        max-height: 120px;
+    }
 }
 
 /* Large Laptop Screens */

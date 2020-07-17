@@ -14,28 +14,46 @@ font-family: 'Sahitya', serif;
 /* Small Mobile Screens */
 
     /* Navbar */
-    footer {
+    footer, header {
         font-family: 'Raleway', sans-serif;
+    }
+
+    footer {
         font-weight: 650;
     }
     header {
-        font-family: 'Raleway', sans-serif;
         font-weight: 600;
         font-size: 18px;
     }
 
     /* Home Page */
     .home-text h1, .home-text h2 {
-        font-family: 'Raleway', sans-serif;
+        text-align: center;
     }
 
     .home-text h1 {
-        font-size: 40px;
+        font-family: 'Sahitya', serif;
+        font-size: 50px;
     }
 
     .home-text h2 {
-        font-weight: 400;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
     }
+
+    /* About Page */
+    .resume-box a {
+        text-decoration: none;
+        font-family: 'Sahitya', serif;
+        font-weight: 550;
+    }
+
+    .about-text p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
 
 /* Tablet Screens */
 @media(min-width: 550px) {
@@ -45,6 +63,10 @@ font-family: 'Sahitya', serif;
         font-size: 22px;
     }
 
+    .home-text h1, .home-text h2 {
+        text-align: left;
+    }
+
     /* Home Page */
     .home-text h1 {
         font-size: 30px;
@@ -52,6 +74,11 @@ font-family: 'Sahitya', serif;
 
     .home-text h2 {
         font-size: 18px;
+    }
+
+    /* About Page */
+    .resume-box a {
+        font-size: 20px;
     }
 }
 
