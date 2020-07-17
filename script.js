@@ -7,7 +7,3 @@ $(document).ready(function () {
     });
 });
 
-// About Page
-$( function() {
-    $( "#accordionBox" ).accordion();
-} );
