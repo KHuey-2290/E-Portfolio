@@ -21,3 +21,13 @@ footer p, nav a {
 nav a:hover {
     color: gold;
 }
+
+.resume-button {
+    background-color: rgb(20, 20, 20);
+    color: rgb(241, 241, 241);
+}
+
+.resume-button:hover {
+    background-color: gold;
+    color: rgb(76, 20, 102);
+}

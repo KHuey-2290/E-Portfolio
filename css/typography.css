@@ -54,13 +54,18 @@ font-family: 'Sahitya', serif;
         line-height: 28px;
     }
 
+    .resume-button {
+        font-family: 'Sahitya', serif;
+        font-size: 20px;
+    }
+
 
 /* Tablet Screens */
 @media(min-width: 550px) {
 
     /* Navbar */
     header {
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .home-text h1, .home-text h2 {
@@ -77,9 +82,6 @@ font-family: 'Sahitya', serif;
     }
 
     /* About Page */
-    .resume-box a {
-        font-size: 20px;
-    }
 }
 
 /* Laptop Screens */

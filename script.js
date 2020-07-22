@@ -5,5 +5,9 @@ $(document).ready(function () {
     $(".menu-toggle-container").click(function() {
         $(".navbar-list").toggle();
     });
+
+    $("#resumeButtonPNG").click(function() {
+        $(".resume-box").toggle();
+    });
 });
 
