@@ -61,7 +61,7 @@ font-family: 'Sahitya', serif;
 
     /* Projects Page */
     .project-container h1 {
-        font-family: 'Sahitya', serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 22px;
         letter-spacing: 1px;
         text-align: center;
@@ -110,7 +110,16 @@ font-family: 'Sahitya', serif;
     }
 }
 
+
+/* Laptop Screens */
+@media(min-width: 768px) {
+
+}
+
+
 /* Large Laptop Screens */
 @media(min-width: 960px) {
-    
+    .project-container h1 {
+        font-size: 20px;
+    }
 }

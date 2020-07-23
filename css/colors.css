@@ -96,5 +96,61 @@ nav a:hover {
 
 /* Large Laptop Screens */
 @media(min-width: 960px) {
-    
+    /* Projects Page */
+#project1 {
+    background-color: rgb(5, 5, 5);
+}
+
+#project1 h1 {
+    color: gold;
+}
+
+#project2 {
+    background-color: rgb(75, 75, 75);
+}
+
+#project2 h1 {
+    color: gold;
+}
+
+#project3 {
+    background-color: rgb(125, 125, 125);
+}
+
+#project3 h1 {
+    color: rgb(76, 20, 102);
+}
+
+#project4 {
+    background-color: rgb(200, 200, 200);
+}
+
+#project4 h1 {
+    color: rgb(76, 20, 102);
+}
+
+#project5 {
+    background-color: rgb(50, 50, 50);
+}
+
+#project5 h1 {
+    color: gold;
+}
+
+#project6 {
+    background-color: rgb(100, 100, 100);
+}
+
+#project6 h1 {
+    color: gold;
+}
+
+#project7 {
+    background-color: rgb(150, 150, 150);
+}
+
+#project8 {
+    background-color: rgb(249, 249, 249);
+}
+
 }
