@@ -1,4 +1,48 @@
 /* Small Mobile Screens */
+.grid-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 25px auto 25px auto 25px auto 25px auto 25px auto 25px auto 25px auto 25px auto 25px ;
+    justify-items: center;
+}
+
+.project-container {
+    width: 80%;
+    border-radius: 15px;
+    padding: 65px 15px;
+}
+
+#project1 {
+    grid-row: 2/ 3;
+}
+
+#project2 {
+    grid-row: 4/ 5;
+}
+
+#project3 {
+    grid-row: 6/ 7;
+}
+
+#project4 {
+    grid-row: 8/ 9;
+}
+
+#project5 {
+    grid-row: 10/ 11;
+}
+
+#project6 {
+    grid-row: 12/ 13;
+}
+
+#project7 {
+    grid-row: 14/ 15;
+}
+
+#project8 {
+    grid-row: 16/ 17;
+}
 
 
 /* Tablet Screens */

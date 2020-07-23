@@ -59,6 +59,14 @@ font-family: 'Sahitya', serif;
         font-size: 20px;
     }
 
+    /* Projects Page */
+    .project-container h1 {
+        font-family: 'Sahitya', serif;
+        font-size: 22px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
 
 /* Tablet Screens */
 @media(min-width: 550px) {
@@ -81,7 +89,7 @@ font-family: 'Sahitya', serif;
         font-size: 18px;
     }
 
-    /* About Page */
+    /* Projects Page */
 }
 
 /* Laptop Screens */

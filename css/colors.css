@@ -14,6 +14,7 @@ footer p, nav a {
     color: rgb(179, 148, 194);
 }
 
+/* Navbar */
 .active-link {
     color: gold;
 }
@@ -22,6 +23,7 @@ nav a:hover {
     color: gold;
 }
 
+/* About Page */
 .resume-button {
     background-color: rgb(20, 20, 20);
     color: rgb(241, 241, 241);
@@ -30,4 +32,69 @@ nav a:hover {
 .resume-button:hover {
     background-color: gold;
     color: rgb(76, 20, 102);
+}
+
+/* Projects Page */
+#project1 {
+    background-color: rgb(5, 5, 5);
+}
+
+#project1 h1 {
+    color: gold;
+}
+
+#project2 {
+    background-color: rgb(50, 50, 50);
+}
+
+#project2 h1 {
+    color: gold;
+}
+
+#project3 {
+    background-color: rgb(75, 75, 75);
+}
+
+#project3 h1 {
+    color: gold;
+}
+
+#project4 {
+    background-color: rgb(100, 100, 100);
+}
+
+#project4 h1 {
+    color: gold;
+}
+
+#project5 {
+    background-color: rgb(125, 125, 125);
+}
+
+#project6 {
+    background-color: rgb(150, 150, 150);
+}
+
+#project7 {
+    background-color: rgb(200, 200, 200);
+}
+
+#project8 {
+    background-color: rgb(249, 249, 249);
+}
+
+
+/* Tablet Screens */
+@media(min-width: 550px) {
+
+}
+
+/* Laptop Screens */
+@media(min-width: 768px) {
+
+}
+
+/* Large Laptop Screens */
+@media(min-width: 960px) {
+    
 }
