@@ -44,6 +44,45 @@
     grid-row: 16/ 17;
 }
 
+#project1:hover, #project2:hover, #project3:hover, #project4:hover, #project5:hover, #project6:hover, #project7:hover, #project8:hover {
+    box-shadow: 8px 8px 20px rgb(76, 20, 102);
+}
+
+#project1:hover {
+    background-image: url(../images/KH_Logo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#project2:hover {
+    background-image: url();
+}
+
+#project3:hover {
+    background-image: url();
+}
+
+#project4:hover {
+    background-image: url();
+}
+
+#project5:hover {
+    background-image: url();
+}
+
+#project6:hover {
+    background-image: url();
+}
+
+#project7:hover {
+    background-image: url();
+}
+
+#project8:hover {
+    background-image: url();
+}
+
 
 /* Tablet Screens */
 @media(min-width: 550px) {
