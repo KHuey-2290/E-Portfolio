@@ -83,6 +83,19 @@ nav a:hover {
     background-color: rgb(249, 249, 249);
 }
 
+.modal {
+    background-color: rgb(20, 20, 20);
+}
+
+.modal-content {
+    background-color: rgb(20, 20, 20);
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
 
 /* Tablet Screens */
 @media(min-width: 550px) {

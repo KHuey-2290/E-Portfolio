@@ -44,14 +44,14 @@
     grid-row: 16/ 17;
 }
 
-#project1:hover, #project2:hover, #project3:hover, #project4:hover, #project5:hover, #project6:hover, #project7:hover, #project8:hover {
+.project-container:hover {
     box-shadow: 8px 8px 20px rgb(76, 20, 102);
 }
 
 #project1:hover {
-    background-image: url(../images/KH_Logo.png);
-    background-size: cover;
-    background-position: center;
+    background-image: url(../images/BM/BM_4.png);
+    background-size: 400%;
+    background-position: top;
     background-repeat: no-repeat;
 }
 
@@ -81,6 +81,92 @@
 
 #project8:hover {
     background-image: url();
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+  
+/* Modal Content */
+.modal-content {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    width: 50%;
+    max-width: 1200px;
+}
+  
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+  
+.close:hover, .close:focus {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+/* Hide the slides by default */
+.mySlides {
+    display: none;
+    width: 90%;
+    margin: auto;
+}
+
+.mySlides img {
+    width: 100%;
+}
+  
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 5px;
+    margin-top: -50px;
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+  
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+/* Caption text */
+.caption-container {
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    height: 100px;
+    padding: 100px 16px;
+    color: white;
+}
+  
+img.demo {
+    opacity: 0.6;
+}
+  
+.active, .demo:hover {
+    opacity: 1;
 }
 
 

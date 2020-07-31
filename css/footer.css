@@ -47,5 +47,8 @@ footer {
 
 /* Large Laptop Screens */
 @media(min-width: 960px) {
-    
+    .flex-footer{
+        margin: auto;
+        max-width: 1100px;
+    }
 }
