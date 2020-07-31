@@ -32,45 +32,47 @@
 
     <main>
         <div class="grid-container">
-            <div class="project-container" id="project1">
+            <div class="project-container" onclick="openModal();currentSlide(1)" id="project1">
                 <h1>BLACKMARKET</h1>
             </div>
     
-            <div class="project-container" id="project2">
+            <div class="project-container" onclick="openModal();currentSlide(8)" id="project2">
                 <h1>TYPOGRAPHY</h1>
             </div>
     
-            <div class="project-container" id="project3">
+            <div class="project-container" onclick="openModal();currentSlide(1)" id="project3">
                 <h1>USER EXPERIENCE</h1>
             </div>
     
-            <div class="project-container" id="project4">
+            <div class="project-container" onclick="openModal();currentSlide(1)" id="project4">
                 <h1>DESIGN RESEARCH</h1>
             </div>
     
-            <div class="project-container" id="project5">
+            <div class="project-container" onclick="openModal();currentSlide(1)" id="project5">
                 <h1>REBRANDING I</h1>
             </div>
     
-            <div class="project-container" id="project6">
+            <div class="project-container" onclick="openModal();currentSlide(1)" id="project6">
                 <h1>REBRANDING II</h1>
             </div>
     
-            <div class="project-container" id="project7">
+            <div class="project-container" onclick="openModal();currentSlide(1)" id="project7">
                 <h1>PACKAGING I</h1>
             </div>
     
-            <div class="project-container" id="project8">
+            <div class="project-container" onclick="openModal();currentSlide(1)" id="project8">
                 <h1>PACKAGING II</h1>
             </div>
         </div>
 
-        <!-- The Modal/Lightbox for BM Project -->
-        <div id="myModalBM" class="modal">
+        <!-- The Modal/Lightbox -->
+        <div id="myModal" class="modal">
             <span class="close cursor" onclick="closeModal()">&times;</span>
 
             <div class="modal-content">
                 <div class="mySlides">
+
+                    <!-- BM -->
                     <div class="numbertext">1 / 7</div>
 
                     <img src="../images/BM/BM_1.png">
@@ -111,688 +113,626 @@
 
                     <img src="../images/BM/BM_8.png">
                 </div>
-            
-                <!-- Next/previous controls -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            
-                <!-- Caption text -->
-                <div class="caption-container">
-                    <p id="caption"></p>
-                </div>
-            </div>
-        </div>
 
-        <!-- The Modal/Lightbox for Typography Project -->
-        <div id="myModalType" class="modal">
-            <span class="close cursor" onclick="closeModal()">&times;</span>
-
-            <div class="modal-content">
+                <!-- Typography -->
                 <div class="mySlides">
-                    <div class="numbertext">1 / 10</div>
+                    <div class="numbertext">1 / 11</div>
+
+                    <img src="../images/Typography/">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 11</div>
 
                     <img src="../images/Typography/huey_karissa_type_final-1.png">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">2 / 10</div>
+                    <div class="numbertext">3 / 11</div>
 
                     <img src="../images/Typography/huey_karissa_type_final-2.png">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">3 / 10</div>
+                    <div class="numbertext">4 / 11</div>
 
                     <img src="../images/Typography/huey_karissa_type_final-3.png">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">4 / 10</div>
+                    <div class="numbertext">5 / 11</div>
 
                     <img src="../images/Typography/bodoni_1.JPG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">5 / 10</div>
+                    <div class="numbertext">6 / 11</div>
 
                     <img src="../images/Typography/bodoni_2.JPG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">6 / 10</div>
+                    <div class="numbertext">7 / 11</div>
 
                     <img src="../images/Typography/bodoni_3.JPG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">7 / 10</div>
+                    <div class="numbertext">8 / 11</div>
 
                     <img src="../images/Typography/bodoni_4.JPG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">8 / 10</div>
+                    <div class="numbertext">9 / 11</div>
 
                     <img src="../images/Typography/bodoni_5.JPG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">9 / 10</div>
+                    <div class="numbertext">10 / 11</div>
 
                     <img src="../images/Typography/bodoni_6.JPG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">10 / 10</div>
+                    <div class="numbertext">11 / 11</div>
 
                     <img src="../images/Typography/bodoni_7.JPG">
                 </div>
-            
-                <!-- Next/previous controls -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            
-                <!-- Caption text -->
-                <div class="caption-container">
-                    <p id="caption"></p>
-                </div>
-            </div>
-        </div>
 
-        <!-- The Modal/Lightbox for UX Project -->
-        <div id="myModalUX" class="modal">
-            <span class="close cursor" onclick="closeModal()">&times;</span>
-
-            <div class="modal-content">
+                <!-- UX -->
                 <div class="mySlides">
-                    <div class="numbertext">1 / 30</div>
+                    <div class="numbertext">1 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide1.PNG">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">2 / 30</div>
+                    <div class="numbertext">2 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide2.PNG">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">3 / 30</div>
+                    <div class="numbertext">3 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide3.PNG">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">4 / 30</div>
+                    <div class="numbertext">4 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide4.PNG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">5 / 30</div>
+                    <div class="numbertext">5 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide5.PNG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">6 / 30</div>
+                    <div class="numbertext">6 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide6.PNG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">7 / 30</div>
+                    <div class="numbertext">7 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide7.PNG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">8 / 30</div>
+                    <div class="numbertext">8 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide8.PNG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">9 / 30</div>
+                    <div class="numbertext">9 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide9.PNG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">10 / 30</div>
+                    <div class="numbertext">10 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide10.PNG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">11 / 30</div>
+                    <div class="numbertext">11 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide11.PNG">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">12 / 30</div>
+                    <div class="numbertext">12 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide12.PNG">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">13 / 30</div>
+                    <div class="numbertext">13 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide13.PNG">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">14 / 30</div>
+                    <div class="numbertext">14 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide14.PNG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">15 / 30</div>
+                    <div class="numbertext">15 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide15.PNG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">16 / 30</div>
+                    <div class="numbertext">16 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide16.PNG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">17 / 30</div>
+                    <div class="numbertext">17 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide17.PNG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">18 / 30</div>
+                    <div class="numbertext">18 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide18.PNG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">19 / 30</div>
+                    <div class="numbertext">19 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide19.PNG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">20 / 30</div>
+                    <div class="numbertext">20 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide20.PNG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">21 / 30</div>
+                    <div class="numbertext">21 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide21.PNG">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">22 / 30</div>
+                    <div class="numbertext">22 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide22.PNG">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">23 / 30</div>
+                    <div class="numbertext">23 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide23.PNG">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">24 / 30</div>
+                    <div class="numbertext">24 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide24.PNG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">25 / 30</div>
+                    <div class="numbertext">25 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide25.PNG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">26 / 30</div>
+                    <div class="numbertext">26 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide26.PNG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">27 / 30</div>
+                    <div class="numbertext">27 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide27.PNG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">28 / 30</div>
+                    <div class="numbertext">28 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide28.PNG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">29 / 30</div>
+                    <div class="numbertext">29 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide29.PNG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">30 / 30</div>
+                    <div class="numbertext">30 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide30.PNG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">31 / 30</div>
+                    <div class="numbertext">31 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide31.PNG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">32 / 30</div>
+                    <div class="numbertext">32 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide32.PNG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">33 / 30</div>
+                    <div class="numbertext">33 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide33.PNG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">34 / 30</div>
+                    <div class="numbertext">34 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide34.PNG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">35 / 30</div>
+                    <div class="numbertext">35 / 35</div>
 
                     <img src="../images/UX_CaseStudy_SMCGOAPP/Slide35.PNG">
                 </div>
-            
-                <!-- Next/previous controls -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            
-                <!-- Caption text -->
-                <div class="caption-container">
-                    <p id="caption"></p>
-                </div>
-            </div>
-        </div>
 
-        <!-- The Modal/Lightbox for DR Project -->
-        <div id="myModalDR" class="modal">
-            <span class="close cursor" onclick="closeModal()">&times;</span>
-
-            <div class="modal-content">
+                <!-- DR -->
                 <div class="mySlides">
-                    <div class="numbertext">1 / 10</div>
+                    <div class="numbertext">1 / 23</div>
 
-                    <img src="../images/Typography/huey_karissa_type_final-1.png">
+                    <img src="../images/Design Research/onboarding_casestudy-1.png">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">2 / 10</div>
+                    <div class="numbertext">2 / 23</div>
 
-                    <img src="../images/Typography/huey_karissa_type_final-2.png">
+                    <img src="../images/Design Research/onboarding_casestudy-2.png">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">3 / 10</div>
+                    <div class="numbertext">3 / 23</div>
 
-                    <img src="../images/Typography/huey_karissa_type_final-3.png">
+                    <img src="../images/Design Research/onboarding_casestudy-3.png">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">4 / 10</div>
+                    <div class="numbertext">4 / 23</div>
 
-                    <img src="../images/Typography/bodoni_1.JPG">
+                    <img src="../images/Design Research/onboarding_casestudy-4.png">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">5 / 10</div>
+                    <div class="numbertext">5 / 23</div>
 
-                    <img src="../images/Typography/bodoni_2.JPG">
+                    <img src="../images/Design Research/onboarding_casestudy-5.png">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">6 / 10</div>
+                    <div class="numbertext">6 / 23</div>
 
-                    <img src="../images/Typography/bodoni_3.JPG">
+                    <img src="../images/Design Research/onboarding_casestudy-6.png">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">7 / 10</div>
+                    <div class="numbertext">7 / 23</div>
 
-                    <img src="../images/Typography/bodoni_4.JPG">
+                    <img src="../images/Design Research/onboarding_casestudy-7.png">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">8 / 10</div>
+                    <div class="numbertext">8 / 23</div>
 
-                    <img src="../images/Typography/bodoni_5.JPG">
+                    <img src="../images/Design Research/onboarding_casestudy-8.png">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">9 / 10</div>
+                    <div class="numbertext">9 / 23</div>
 
-                    <img src="../images/Typography/bodoni_6.JPG">
+                    <img src="../images/Design Research/onboarding_casestudy-9.png">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">10 / 10</div>
+                    <div class="numbertext">10 / 23</div>
 
-                    <img src="../images/Typography/bodoni_7.JPG">
+                    <img src="../images/Design Research/onboarding_casestudy-10.png">
                 </div>
-            
-                <!-- Next/previous controls -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            
-                <!-- Caption text -->
-                <div class="caption-container">
-                    <p id="caption"></p>
-                </div>
-            </div>
-        </div>
 
-        <!-- The Modal/Lightbox for Rebrand1 Project -->
-        <div id="myModalRebrand1" class="modal">
-            <span class="close cursor" onclick="closeModal()">&times;</span>
-
-            <div class="modal-content">
                 <div class="mySlides">
-                    <div class="numbertext">1 / 10</div>
+                    <div class="numbertext">11 / 23</div>
 
-                    <img src="../images/Typography/huey_karissa_type_final-1.png">
+                    <img src="../images/Design Research/onboarding_casestudy-11.png">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">2 / 10</div>
+                    <div class="numbertext">12 / 23</div>
 
-                    <img src="../images/Typography/huey_karissa_type_final-2.png">
+                    <img src="../images/Design Research/onboarding_casestudy-12.png">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">3 / 10</div>
+                    <div class="numbertext">13 / 23</div>
 
-                    <img src="../images/Typography/huey_karissa_type_final-3.png">
+                    <img src="../images/Design Research/onboarding_casestudy-13.png">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">4 / 10</div>
+                    <div class="numbertext">14 / 23</div>
 
-                    <img src="../images/Typography/bodoni_1.JPG">
+                    <img src="../images/Design Research/onboarding_casestudy-14.png">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">5 / 10</div>
+                    <div class="numbertext">15 / 23</div>
 
-                    <img src="../images/Typography/bodoni_2.JPG">
+                    <img src="../images/Design Research/onboarding_casestudy-15.png">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">6 / 10</div>
+                    <div class="numbertext">16 / 23</div>
 
-                    <img src="../images/Typography/bodoni_3.JPG">
+                    <img src="../images/Design Research/onboarding_casestudy-16.png">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">7 / 10</div>
+                    <div class="numbertext">17 / 23</div>
 
-                    <img src="../images/Typography/bodoni_4.JPG">
+                    <img src="../images/Design Research/onboarding_casestudy-17.png">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">8 / 10</div>
+                    <div class="numbertext">18 / 23</div>
 
-                    <img src="../images/Typography/bodoni_5.JPG">
+                    <img src="../images/Design Research/onboarding_casestudy-18.png">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">9 / 10</div>
+                    <div class="numbertext">19 / 23</div>
 
-                    <img src="../images/Typography/bodoni_6.JPG">
+                    <img src="../images/Design Research/onboarding_casestudy-19.png">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">10 / 10</div>
+                    <div class="numbertext">20 / 23</div>
 
-                    <img src="../images/Typography/bodoni_7.JPG">
+                    <img src="../images/Design Research/onboarding_casestudy-20.png">
                 </div>
-            
-                <!-- Next/previous controls -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            
-                <!-- Caption text -->
-                <div class="caption-container">
-                    <p id="caption"></p>
-                </div>
-            </div>
-        </div>
 
-        <!-- The Modal/Lightbox for Rebrand2 Project -->
-        <div id="myModalRebrand2" class="modal">
-            <span class="close cursor" onclick="closeModal()">&times;</span>
-
-            <div class="modal-content">
                 <div class="mySlides">
-                    <div class="numbertext">1 / 10</div>
+                    <div class="numbertext">21 / 23</div>
 
-                    <img src="../images/Typography/huey_karissa_type_final-1.png">
+                    <img src="../images/Design Research/onboarding_casestudy-21.png">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">2 / 10</div>
+                    <div class="numbertext">22 / 23</div>
 
-                    <img src="../images/Typography/huey_karissa_type_final-2.png">
+                    <img src="../images/Design Research/onboarding_casestudy-22.png">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">3 / 10</div>
+                    <div class="numbertext">23 / 23</div>
 
-                    <img src="../images/Typography/huey_karissa_type_final-3.png">
+                    <img src="../images/Design Research/onboarding_casestudy-23.png">
+                </div>
+            
+                <!-- Rebrand1 -->
+                <div class="mySlides">
+                    <div class="numbertext">1 / 8</div>
+
+                    <img src="../images/Rebranding/">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 8</div>
+
+                    <img src="../images/Rebranding/hakuna_packaging-1.png">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 8</div>
+
+                    <img src="../images/Rebranding/hakuna_packaging-2.png">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 8</div>
+
+                    <img src="../images/Rebranding/hakuna_packaging-4.png">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 8</div>
+
+                    <img src="../images/Rebranding/hakuna_packaging-6.png">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 8</div>
+
+                    <img src="../images/Rebranding/hakuna_packaging-7.png">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">7 / 8</div>
+
+                    <img src="../images/Rebranding/hakuna_tshirts.png">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">8 / 8</div>
+
+                    <img src="../images/Rebranding/hakuna_hat.png">
+                </div>
+
+                <!-- Rebrand2 -->
+                <div class="mySlides">
+                    <div class="numbertext">1 / 11</div>
+
+                    <img src="../images/Rebranding/">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 11</div>
+
+                    <img src="../images/Rebranding/NF_letterheaed.png">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 11</div>
+
+                    <img src="../images/Rebranding/NF_envelope.png">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 11</div>
+
+                    <img src="../images/Rebranding/NF_businesscard_1.png">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 11</div>
+
+                    <img src="../images/Rebranding/NF_businesscard_2.png">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 11</div>
+
+                    <img src="../images/Rebranding/NF_postcard.png">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">7 / 11</div>
+
+                    <img src="../images/Rebranding/NF_brochure.png">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">4 / 10</div>
+                    <div class="numbertext">8 / 11</div>
 
-                    <img src="../images/Typography/bodoni_1.JPG">
+                    <img src="../images/Rebranding/NF_folder.png">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">5 / 10</div>
+                    <div class="numbertext">9 / 11</div>
 
-                    <img src="../images/Typography/bodoni_2.JPG">
+                    <img src="../images/Rebranding/">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">6 / 10</div>
+                    <div class="numbertext">10 / 11</div>
 
-                    <img src="../images/Typography/bodoni_3.JPG">
+                    <img src="../images/Rebranding/">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">7 / 10</div>
+                    <div class="numbertext">1 / 11</div>
 
-                    <img src="../images/Typography/bodoni_4.JPG">
-                </div>
-
-                <div class="mySlides">
-                    <div class="numbertext">8 / 10</div>
-
-                    <img src="../images/Typography/bodoni_5.JPG">
-                </div>
-
-                <div class="mySlides">
-                    <div class="numbertext">9 / 10</div>
-
-                    <img src="../images/Typography/bodoni_6.JPG">
-                </div>
-
-                <div class="mySlides">
-                    <div class="numbertext">10 / 10</div>
-
-                    <img src="../images/Typography/bodoni_7.JPG">
+                    <img src="../images/Rebranding/">
                 </div>
             
-                <!-- Next/previous controls -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            
-                <!-- Caption text -->
-                <div class="caption-container">
-                    <p id="caption"></p>
-                </div>
-            </div>
-        </div>
-
-        <!-- The Modal/Lightbox for Pack1 Project -->
-        <div id="myModalPack1" class="modal">
-            <span class="close cursor" onclick="closeModal()">&times;</span>
-
-            <div class="modal-content">
+                <!-- Pack1 -->
                 <div class="mySlides">
-                    <div class="numbertext">1 / 10</div>
+                    <div class="numbertext">1 / 6</div>
 
-                    <img src="../images/Typography/huey_karissa_type_final-1.png">
+                    <img src="../images/Packaging/">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 6</div>
+
+                    <img src="../images/Packaging/arizona_designbrief_4.png">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">2 / 10</div>
+                    <div class="numbertext">3 / 6</div>
 
-                    <img src="../images/Typography/huey_karissa_type_final-2.png">
+                    <img src="../images/Packaging/arizona_designbrief-3.png">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 6</div>
+
+                    <img src="../images/Packaging/arizona_designbrief-2.png">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 6</div>
+
+                    <img src="../images/Packaging/arizona_label.jpg">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 6</div>
+
+                    <img src="../images/Packaging/arizona_rendering.png">
+                </div>
+
+                <!-- Pack2 -->
+                <div class="mySlides">
+                    <div class="numbertext">1 / 8</div>
+
+                    <img src="../images/Packaging/brickell_designbrief1-1.png">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 8</div>
+
+                    <img src="../images/Packaging/brickell_designbrief1-2.png">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 8</div>
+
+                    <img src="../images/Packaging/brickell_moodboard.png">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 8</div>
+
+                    <img src="../images/Packaging/brickell_designbrief1-3.png">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">3 / 10</div>
+                    <div class="numbertext">5 / 8</div>
 
-                    <img src="../images/Typography/huey_karissa_type_final-3.png">
+                    <img src="../images/Packaging/brickell_advertisementideas-2.png">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">4 / 10</div>
+                    <div class="numbertext">6 / 8</div>
 
-                    <img src="../images/Typography/bodoni_1.JPG">
-                </div>
-
-                <div class="mySlides">
-                    <div class="numbertext">5 / 10</div>
-
-                    <img src="../images/Typography/bodoni_2.JPG">
-                </div>
-
-                <div class="mySlides">
-                    <div class="numbertext">6 / 10</div>
-
-                    <img src="../images/Typography/bodoni_3.JPG">
-                </div>
-
-                <div class="mySlides">
-                    <div class="numbertext">7 / 10</div>
-
-                    <img src="../images/Typography/bodoni_4.JPG">
-                </div>
-
-                <div class="mySlides">
-                    <div class="numbertext">8 / 10</div>
-
-                    <img src="../images/Typography/bodoni_5.JPG">
-                </div>
-
-                <div class="mySlides">
-                    <div class="numbertext">9 / 10</div>
-
-                    <img src="../images/Typography/bodoni_6.JPG">
-                </div>
-
-                <div class="mySlides">
-                    <div class="numbertext">10 / 10</div>
-
-                    <img src="../images/Typography/bodoni_7.JPG">
-                </div>
-            
-                <!-- Next/previous controls -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            
-                <!-- Caption text -->
-                <div class="caption-container">
-                    <p id="caption"></p>
-                </div>
-            </div>
-        </div>
-
-        <!-- The Modal/Lightbox for Pack2 Project -->
-        <div id="myModalPack2" class="modal">
-            <span class="close cursor" onclick="closeModal()">&times;</span>
-
-            <div class="modal-content">
-                <div class="mySlides">
-                    <div class="numbertext">1 / 10</div>
-
-                    <img src="../images/Typography/huey_karissa_type_final-1.png">
+                    <img src="../images/Packaging/brickell_packaging.png">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">2 / 10</div>
+                    <div class="numbertext">7 / 8</div>
 
-                    <img src="../images/Typography/huey_karissa_type_final-2.png">
-                </div>
-            
-                <div class="mySlides">
-                    <div class="numbertext">3 / 10</div>
-
-                    <img src="../images/Typography/huey_karissa_type_final-3.png">
-                </div>
-            
-                <div class="mySlides">
-                    <div class="numbertext">4 / 10</div>
-
-                    <img src="../images/Typography/bodoni_1.JPG">
+                    <img src="../images/Packaging/brickell_photo.JPG">
                 </div>
 
                 <div class="mySlides">
-                    <div class="numbertext">5 / 10</div>
+                    <div class="numbertext">8 / 8</div>
 
-                    <img src="../images/Typography/bodoni_2.JPG">
+                    <img src="../images/Packaging/brickell_advertisementideas-1.png">
                 </div>
 
-                <div class="mySlides">
-                    <div class="numbertext">6 / 10</div>
-
-                    <img src="../images/Typography/bodoni_3.JPG">
-                </div>
-
-                <div class="mySlides">
-                    <div class="numbertext">7 / 10</div>
-
-                    <img src="../images/Typography/bodoni_4.JPG">
-                </div>
-
-                <div class="mySlides">
-                    <div class="numbertext">8 / 10</div>
-
-                    <img src="../images/Typography/bodoni_5.JPG">
-                </div>
-
-                <div class="mySlides">
-                    <div class="numbertext">9 / 10</div>
-
-                    <img src="../images/Typography/bodoni_6.JPG">
-                </div>
-
-                <div class="mySlides">
-                    <div class="numbertext">10 / 10</div>
-
-                    <img src="../images/Typography/bodoni_7.JPG">
-                </div>
             
                 <!-- Next/previous controls -->
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
