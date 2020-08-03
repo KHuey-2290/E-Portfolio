@@ -32,6 +32,10 @@ footer {
     width: 100%;
 }
 
+#imgEtsy {
+    display: none;
+}
+
 /* Tablet Screens */
 @media(min-width: 550px) {
     .flex-footer {
