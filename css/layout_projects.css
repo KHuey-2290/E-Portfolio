@@ -49,7 +49,7 @@
 }
 
 #project1:hover, #project2:hover, #project3:hover, #project4:hover, #project5:hover, #project6:hover, #project7:hover, #project8:hover {
-    background-size: 400%;
+    background-size: 300%;
     background-position: top;
     background-repeat: no-repeat;
 }
@@ -60,7 +60,7 @@
 }
 
 #project2:hover {
-    background-image: url("../images/Typography/bodoni_1.JPG");
+    background-image: url("../images/Typography/typography_0.png");
 }
 
 #project3:hover {
