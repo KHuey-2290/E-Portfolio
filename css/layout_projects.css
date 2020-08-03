@@ -48,39 +48,43 @@
     box-shadow: 8px 8px 20px rgb(76, 20, 102);
 }
 
-#project1:hover {
-    background-image: url(../images/BM/BM_4.png);
+#project1:hover, #project2:hover, #project3:hover, #project4:hover, #project5:hover, #project6:hover, #project7:hover, #project8:hover {
     background-size: 400%;
     background-position: top;
     background-repeat: no-repeat;
 }
 
+#project1:hover {
+    background-image: url(../images/BM/BM_4.png);
+
+}
+
 #project2:hover {
-    background-image: url();
+    background-image: url("../images/Typography/bodoni_1.JPG");
 }
 
 #project3:hover {
-    background-image: url();
+    background-image: url("../images/UX_CaseStudy_SMCGOAPP/Slide1.PNG");
 }
 
 #project4:hover {
-    background-image: url();
+    background-image: url("../images/Design Research/onboarding_casestudy-1.png");
 }
 
 #project5:hover {
-    background-image: url();
+    background-image: url("../images/Rebranding/hakuna_packaging-1.png");
 }
 
 #project6:hover {
-    background-image: url();
+    background-image: url("../images/Rebranding/NF_designbrief_0.png");
 }
 
 #project7:hover {
-    background-image: url();
+    background-image: url("../images/Packaging/Arizona_designbrief_0.png");
 }
 
 #project8:hover {
-    background-image: url();
+    background-image: url("../images/Packaging/brickell_designbrief1-1.png");
 }
 
 /* The Modal (background) */
