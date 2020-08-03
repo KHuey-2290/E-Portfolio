@@ -42,6 +42,10 @@ main {
         margin-bottom: 0px;
         max-width: 350px;
     }
+
+    .home-text {
+        align-self: start;
+    }
 }
 
 /* Laptop Screens */

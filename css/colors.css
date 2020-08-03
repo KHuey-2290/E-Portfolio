@@ -96,6 +96,11 @@ nav a:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+    /* Contact Page */
+    .contact-text a {
+        color: rgb(76, 20, 102);
+    }
+
 
 /* Tablet Screens */
 @media(min-width: 550px) {
