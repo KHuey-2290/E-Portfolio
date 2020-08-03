@@ -48,7 +48,7 @@
     box-shadow: 8px 8px 20px rgb(76, 20, 102);
 }
 
-#project1:hover, #project2:hover, #project3:hover, #project4:hover, #project5:hover, #project6:hover, #project7:hover, #project8:hover {
+/* #project1:hover, #project2:hover, #project3:hover, #project4:hover, #project5:hover, #project6:hover, #project7:hover, #project8:hover {
     background-size: 300%;
     background-position: top;
     background-repeat: no-repeat;
@@ -85,7 +85,7 @@
 
 #project8:hover {
     background-image: url(../images/Packaging/brickell_designbrief1-1.png);
-}
+} */
 
 /* The Modal (background) */
 .modal {
